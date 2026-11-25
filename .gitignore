@@ -1,0 +1,54 @@
+# --- Unity: служебные папки, пересоздаются при открытии проекта ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Файлы IDE и сборки
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-buildid.txt
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Не относится к Unity-проекту ---
+# Мультик (Blender, рендеры, звук) — отдельно, несколько ГБ
+/Мультик/
+# Локальные настройки Claude Code и MCP (пути этого компьютера)
+/.claude/
+/.mcp.json
+/New Folder/
+
+# Системное
+.DS_Store
+Thumbs.db
+desktop.ini
